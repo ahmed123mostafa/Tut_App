@@ -11,6 +11,7 @@ import 'package:untitled1/presentation/resources/values_manager.dart';
 
 class OnbordingView extends StatefulWidget {
   const OnbordingView({super.key});
+  //////
 
   @override
   State<OnbordingView> createState() => _OnbordingViewState();
