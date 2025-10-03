@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:untitled1/domain/model/slider_model.dart';
+import 'package:untitled1/domain/model/models.dart';
 import 'package:untitled1/presentation/base/base_view_model.dart';
 import 'package:untitled1/presentation/resources/assets_manager.dart';
 import 'package:untitled1/presentation/resources/strings_manager.dart';

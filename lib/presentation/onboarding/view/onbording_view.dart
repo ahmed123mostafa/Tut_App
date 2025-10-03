@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:untitled1/domain/model/slider_model.dart';
+import 'package:untitled1/domain/model/models.dart';
 import 'package:untitled1/presentation/onboarding/view_model/onboarding_view_model.dart';
 import 'package:untitled1/presentation/resources/assets_manager.dart';
 import 'package:untitled1/presentation/resources/color_manger.dart';

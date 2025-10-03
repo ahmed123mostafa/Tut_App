@@ -30,10 +30,10 @@ class CustomerResponce {
   String? numberOfNotifications;
 
   CustomerResponce(this.id, this.name, this.numberOfNotifications);
-
+//from json
   factory CustomerResponce.fromJson(Map<String, dynamic> json) =>
       _$CustomerResponceFromJson(json);
-
+//to json
   Map<String, dynamic> toJson() => _$CustomerResponceToJson(this);
 }
 
@@ -64,11 +64,13 @@ class AuthResponce extends Responces {
   @JsonKey(name: "contact")
   ContactResponces? contact;
 
-  AuthResponce({this.customer, this.contact, int? status, String? message})
-      : super(status: status, message: message);
-
+   AuthResponce({this.customer, this.contact, super.status, super.message});
+//from json
   factory AuthResponce.fromJson(Map<String, dynamic> json) =>
       _$AuthResponceFromJson(json);
 
+
+//to json
+  @override
   Map<String, dynamic> toJson() => _$AuthResponceToJson(this);
 }

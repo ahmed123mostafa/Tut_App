@@ -19,4 +19,29 @@ class Sliderviewobject {
     required this.numberOfSlides,
     required this.currentIndex,
   });
+
 }
+//login
+class Customer{
+  String id;
+  String name;
+  String numberOfNotifications;
+
+  Customer(this.id, this.name, this.numberOfNotifications); 
+
+}
+class Contact{
+  int phone;
+  String email;
+  String link;
+
+  Contact(this.phone, this.email, this.link);
+}
+class Auth{
+  Customer? customer;
+  Contact? contacts;
+  
+
+  Auth({this.customer, this.contacts});
+}
+
